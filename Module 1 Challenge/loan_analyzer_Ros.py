@@ -212,8 +212,10 @@ print("Writing the data to a CSV file ...")
 # and each row of `loan.values()` from the `inexpensive_loans` list.
 
 
-with open (csvpath, "w") as csvfile:
-    csvwriter = csv.writer(csvfile, delimiter=",")
-    csvwriter.writerow(header)
-    for item in loans:
-        csvwriter.writerow(item.values())
+import csv
+with open('inexpensive_loans.csv', 'w', newline='') as f:
+    writer = csv.writer(f)
+    writer.writerow(header)
+    # writer.writerow(inexpensive_loans)
+    for value in range(len(inexpensive_loans)):
+        writer.writerow([inexpensive_loans[value]])
