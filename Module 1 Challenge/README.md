@@ -144,23 +144,26 @@ Part 4: Conditionally filter lists of loans.
 
 Part 5: Save the results.
 
-Output this list of inexpensive loans to a csv file
-    1. Use `with open` to open a new CSV file.
-        a. Create a `csvwriter` using the `csv` library.
-        b. Use the new csvwriter to write the header variable as the first row.
-        c. Use a for loop to iterate through each loan in `inexpensive_loans`.
-            i. Use the csvwriter to write the `loan.values()` to a row in the CSV file.
+    5.a Output this list of inexpensive loans to a csv file
+        1. Use `with open` to open a new CSV file.
+            a. Create a `csvwriter` using the `csv` library.
+            b. Use the new csvwriter to write the header variable as the first row.
+            c. Use a for loop to iterate through each loan in `inexpensive_loans`.
+                i. Use the csvwriter to write the `loan.values()` to a row in the CSV file.
+
+    Code:
+    with open('inexpensive_loans2.csv', 'w', newline='') as f:
+    writer = csv.writer(f)
+    writer.writerow(header)
+    # writer.writerow(inexpensive_loans)
+    for value in range(len(inexpensive_loans)):
+        writer.writerow([inexpensive_loans[value]])
+
+    5.b Set the output header
+    header = ["loan_price", "remaining_months", "repayment_interval", "future_value"]
+
+    5.c Set the output file path
+    csvpath = Path("inexpensive_loans2.csv")
 
 
-"""
-
-# Set the output header
-header = ["loan_price", "remaining_months", "repayment_interval", "future_value"]
-
-# Set the output file path
-output_path = Path("inexpensive_loans.csv")
-
-# @TODO: Use the csv library and `csv.writer` to write the header row
-# and each row of `loan.values()` from the `inexpensive_loans` list.
-# YOUR CODE HERE!
 
