@@ -1,18 +1,31 @@
-# FINTECH-Bootcamp MY VERY FIRST CHALLENGE!! (no coding experience)
+# FINTECH-Bootcamp MY VERY FIRST CHALLENGE!! (no coding experience!)
 
 ## Module 1 Challenge: Loan Analyzer
 
-### Challenge Goal
+### Challenge Goal 
 ========================================================================================
 Purpose is to learn how to write codes.
 Apply the what I have learned in creating variables, conditions, functions and loops.
 
 
-### Writing codes
+### Writing codes (examples)
 ========================================================================================
+
+"""Part 1: Automate the Calculations.
+
+"""" 1.a Using the following data, write a code to count the number of loans.
+Data: loan_costs = [500, 600, 200, 1000, 450]
+Code: number_of_loans = len(loan_costs)
+Note: Use len function to count the number of loans.
+
+"""" 1.b Print the number of loans.
+Code: print(number_of_loans)
+Answer: 5
+
 
 
 """Part 1: Automate the Calculations.
+
 
 Automate the calculations for the loan portfolio summaries.
 
