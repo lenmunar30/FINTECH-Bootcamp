@@ -1,9 +1,7 @@
 # FINTECH-Bootcamp
-Module 1 Challenge:
+## Module 1 Challenge: Loan Analyzer
 
-# coding: utf-8
-import csv
-from pathlib import Path
+### Challenge Goal
 
 """Part 1: Automate the Calculations.
 
