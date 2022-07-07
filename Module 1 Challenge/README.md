@@ -173,4 +173,4 @@ Part 5: Save the results.
 I didn't think I could do it ..... BUT I DID! 
 MASSIVE THANK YOU TO OUR INSTRUCTOR (Augustine) and TEACHER ASSISTANT (Andrew) .... they are heaven sent!!! 👍
 
-![Sucess](https://github.com/lenmunar30/FINTECH-Bootcamp-2022/issues/2#issue-1296715108.gif)
+![Dancing](https://user-images.githubusercontent.com/108433370/177679000-94f11dc2-b120-4256-a378-3782caea2d29.gif)
