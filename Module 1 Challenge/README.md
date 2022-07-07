@@ -166,4 +166,7 @@ Part 5: Save the results.
     csvpath = Path("inexpensive_loans2.csv")
 
 
+# CONCLUSION:
 
+I didn't think I could do it ..... BUT I DID! 
+MASSIVE THANK YOU TO OUR INSTRUCTOR (Augustine) and TEACHER ASSISTANT (Andrew) .... they are heaven sent!!! 👍
