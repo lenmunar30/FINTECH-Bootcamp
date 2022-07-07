@@ -1,11 +1,16 @@
 # FINTECH-Bootcamp MY VERY FIRST CHALLENGE!! (no coding experience)
 
-![Gurl Studen](https://www.123rf.com/photo_138511123_kids-thinking-idea-question-school-vector-illustration.html?vti=m43ictthgg8yt85423-1-152)
-
-
 ## Module 1 Challenge: Loan Analyzer
 
 ### Challenge Goal
+=====================================================================================
+Purpose is to learn how to code.
+Apply the what I have learned creating variables, conditions, functions and loops.
+
+
+### Challenge Goal
+=====================================================================================
+
 
 """Part 1: Automate the Calculations.
 
