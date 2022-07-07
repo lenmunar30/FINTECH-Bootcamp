@@ -178,8 +178,8 @@ inexpensive_loans = []
 
 for x in loans:
     if x.get("loan_price") <= 500:
-        inexpensive_loans.append(x.get("loan_price"))
-
+        inexpensive_loans.append(x)
+# inexpensive_loans.append(x.get("loan_price"))
 
 
 # @TODO: Print the `inexpensive_loans` list
@@ -204,16 +204,15 @@ Output this list of inexpensive loans to a csv file
 header = ["loan_price", "remaining_months", "repayment_interval", "future_value"]
 
 # Set the output file path
-csvpath = Path("inexpensive_loans.csv")
+csvpath = Path("inexpensive_loans2.csv")
 
 print("Writing the data to a CSV file ...")
 
 # @TODO: Use the csv library and `csv.writer` to write the header row
 # and each row of `loan.values()` from the `inexpensive_loans` list.
 
-
 import csv
-with open('inexpensive_loans.csv', 'w', newline='') as f:
+with open('inexpensive_loans2.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(header)
     # writer.writerow(inexpensive_loans)
