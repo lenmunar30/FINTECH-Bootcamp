@@ -11,7 +11,7 @@ Apply the what I have learned in creating variables, conditions, functions and l
 ### Writing codes (examples)
 ========================================================================================
 
-"""Part 1: Automate the Calculations.
+"""Part 1: Automate the Calculations. 
 
 """" 1.a Using the following data, write a code to count the number of loans.
 Data: loan_costs = [500, 600, 200, 1000, 450]
