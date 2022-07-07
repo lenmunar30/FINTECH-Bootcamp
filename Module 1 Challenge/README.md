@@ -1,6 +1,6 @@
 # FINTECH-Bootcamp MY VERY FIRST CHALLENGE!! (no coding experience)
 
-![](https://www.123rf.com/photo_138511123_kids-thinking-idea-question-school-vector-illustration.html?vti=m43ictthgg8yt85423-1-152)
+![link](https://www.123rf.com/photo_138511123_kids-thinking-idea-question-school-vector-illustration.html?vti=m43ictthgg8yt85423-1-152)
 
 
 ## Module 1 Challenge: Loan Analyzer
