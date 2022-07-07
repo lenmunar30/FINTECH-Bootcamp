@@ -3,13 +3,13 @@
 ## Module 1 Challenge: Loan Analyzer
 
 ### Challenge Goal
-=====================================================================================
-Purpose is to learn how to code.
-Apply the what I have learned creating variables, conditions, functions and loops.
+========================================================================================
+Purpose is to learn how to write codes.
+Apply the what I have learned in creating variables, conditions, functions and loops.
 
 
-### Challenge Goal
-=====================================================================================
+### Writing codes
+========================================================================================
 
 
 """Part 1: Automate the Calculations.
