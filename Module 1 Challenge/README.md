@@ -1,5 +1,7 @@
 # FINTECH-Bootcamp MY VERY FIRST CHALLENGE!! (no coding experience!)
 
+![Student]"C:\Users\17045\OneDrive\Pictures\284-2845267_cartoon-student-png-free-photo-clipart-smart-kids.png"
+
 ## Module 1 Challenge: Loan Analyzer
 
 ### Challenge Goal 
