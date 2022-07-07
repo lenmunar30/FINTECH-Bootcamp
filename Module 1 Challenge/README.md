@@ -81,67 +81,68 @@ Part 3: Perform Financial Calculations.
         "future_value": 1000,
     }
 
-# @TODO: Define a new function that will be used to calculate present value.
-#    This function should include parameters for `future_value`, `remaining_months`, and the `annual_discount_rate`
-#    The function should return the `present_value` for the loan.
-# YOUR CODE HERE!
+    3.a Define a new function that will be used to calculate present value.
+    This function should include parameters for `future_value`, `remaining_months`, and the `annual_discount_rate`
+    The function should return the `present_value` for the loan.
+    Code:
+    def calculate_present_value(future_value,remaining_months, annual_discount_rate):
+    present_value = future_value / (1 + annual_discount_rate/12) ** remaining_months
+    return present_value
 
+    present_value = calculate_present_value(new_loan["future_value"], new_loan["annual_discount_rate"], new_loan["remaining_months"])
+    print(present_value)
 
-# @TODO: Use the function to calculate the present value of the new loan given below.
-#    Use an `annual_discount_rate` of 0.2 for this new loan calculation.
-# YOUR CODE HERE!
-print(f"The present value of the loan is: {present_value}")
+    3.b Print with strings.
+    Code: print(f"The present value of the loan is: {present_value}")
 
+Part 4: Conditionally filter lists of loans.
 
-"""Part 4: Conditionally filter lists of loans.
+    In this section, you will use a loop to iterate through a series of loans and select only the inexpensive loans.
+    Given:
+    loans = [
+        {
+            "loan_price": 700,
+            "remaining_months": 9,
+            "repayment_interval": "monthly",
+            "future_value": 1000,
+        },
+        {
+            "loan_price": 500,
+            "remaining_months": 13,
+            "repayment_interval": "bullet",
+            "future_value": 1000,
+        },
+        {
+            "loan_price": 200,
+            "remaining_months": 16,
+            "repayment_interval": "bullet",
+            "future_value": 1000,
+        },
+        {
+            "loan_price": 900,
+            "remaining_months": 16,
+            "repayment_interval": "bullet",
+            "future_value": 1000,
+        },
+    ]
 
-In this section, you will use a loop to iterate through a series of loans and select only the inexpensive loans.
+    4.a Create a new, empty list called `inexpensive_loans`.
+    Code" inexpensive_loans = []
+    
+    4.b Use a for loop to select each loan from a list of loans.
+        i. Inside the for loop, write an if-statement to determine if the loan_price is less than or equal to 500
+        ii. If the loan_price is less than or equal to 500 then append that loan to the `inexpensive_loans` list.
+        
+    Code: 
+    for x in loans:
+    if x.get("loan_price") <= 500:
+        inexpensive_loans.append(x)
+    # inexpensive_loans.append(x.get("loan_price"))
+       
+    4.c Print the list of inexpensive_loans.
+    Code: print(inexpensive_loans)
 
-1. Create a new, empty list called `inexpensive_loans`.
-2. Use a for loop to select each loan from a list of loans.
-    a. Inside the for loop, write an if-statement to determine if the loan_price is less than or equal to 500
-    b. If the loan_price is less than or equal to 500 then append that loan to the `inexpensive_loans` list.
-3. Print the list of inexpensive_loans.
-"""
-
-loans = [
-    {
-        "loan_price": 700,
-        "remaining_months": 9,
-        "repayment_interval": "monthly",
-        "future_value": 1000,
-    },
-    {
-        "loan_price": 500,
-        "remaining_months": 13,
-        "repayment_interval": "bullet",
-        "future_value": 1000,
-    },
-    {
-        "loan_price": 200,
-        "remaining_months": 16,
-        "repayment_interval": "bullet",
-        "future_value": 1000,
-    },
-    {
-        "loan_price": 900,
-        "remaining_months": 16,
-        "repayment_interval": "bullet",
-        "future_value": 1000,
-    },
-]
-
-# @TODO: Create an empty list called `inexpensive_loans`
-# YOUR CODE HERE!
-
-# @TODO: Loop through all the loans and append any that cost $500 or less to the `inexpensive_loans` list
-# YOUR CODE HERE!
-
-# @TODO: Print the `inexpensive_loans` list
-# YOUR CODE HERE!
-
-
-"""Part 5: Save the results.
+Part 5: Save the results.
 
 Output this list of inexpensive loans to a csv file
     1. Use `with open` to open a new CSV file.
@@ -150,8 +151,6 @@ Output this list of inexpensive loans to a csv file
         c. Use a for loop to iterate through each loan in `inexpensive_loans`.
             i. Use the csvwriter to write the `loan.values()` to a row in the CSV file.
 
-    Hint: Refer to the official documentation for the csv library.
-    https://docs.python.org/3/library/csv.html#writer-objects
 
 """
 
