@@ -1,6 +1,6 @@
 # FINTECH-Bootcamp MY VERY FIRST CHALLENGE!! (no coding experience!)
 
-![Gurl_Student])https://user-images.githubusercontent.com/108433370/177679420-8ab94a02-cc51-448c-ba58-174fb922a4ae.png)
+![Gurl_Student](https://user-images.githubusercontent.com/108433370/177679420-8ab94a02-cc51-448c-ba58-174fb922a4ae.png)
 
 ## Module 1 Challenge: Loan Analyzer 
 
