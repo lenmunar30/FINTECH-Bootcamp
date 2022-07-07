@@ -2,7 +2,7 @@
 
 ![Student](https://www.bing.com/images/search?view=detailV2&ccid=PuNF%2bcvl&id=6CE8A573005CA2197C9E5427C183825529258729&thid=OIP.PuNF-cvlVihbPM5vyvOxGAHaQj&mediaurl=https%3a%2f%2fwww.pikpng.com%2fpngl%2fm%2f284-2845267_cartoon-student-png-free-photo-clipart-smart-kids.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.3ee345f9cbe556285b3cce6fcaf3b118%3frik%3dKYclKVWCg8EnVA%26pid%3dImgRaw%26r%3d0&exph=1877&expw=840&q=free+image+for+cartoon+student&simid=608019472300248009&FORM=IRPRST&ck=D1E70D2F6FA9F4D2B117CE2971A8D355&selectedIndex=0&idpp=overlayview&ajaxhist=0&ajaxserp=0)
 
-## Module 1 Challenge: Loan Analyzer
+## Module 1 Challenge: Loan Analyzer 
 
 ### Challenge Goal 
 ========================================================================================
